@@ -1,0 +1,8 @@
+{
+  "name": "lazy",
+  "description": "Cache service configured to run with pm2",
+  "private": true,
+  "dependencies": {
+    "npm_lazy": "^1.10.0"
+  }
+}

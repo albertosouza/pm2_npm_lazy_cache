@@ -1,0 +1,17 @@
+{
+  "apps" : [{
+    "name"        : "npm_lazy",
+    "script"      : "node_modules/.bin/npm_lazy",
+    "cwd"         : ".",
+    "args"        : "--config config.js",
+    "log_date_format"  : "YYYY-MM-DD HH:mm Z",
+    "error_file" : "logs/we.info.b-err.log",
+    "out_file"   : "logs/we.info.b-out.log",
+    "pid_file"   : "logs/we.info.b.pid",
+    "port"        : 8081,
+    "exec_mode"  : "fork_mode",
+    "env": {
+        "NODE_ENV": "production"
+    }
+  }]
+}
